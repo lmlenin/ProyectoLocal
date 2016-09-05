@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "BackyardBlackItalic";
+    src: url(Relic-Regular.otf) format("truetype"),url(BackyardBlackItalic_PERSONAL.woff) format('woff');
+}
+*{
+    font-family: BackyardBlackItalic;
+    font-size: 30px;
+}
+
+#contenido{
+    width: 94%;
+    height: 300px;
+    padding: 3% 2%;
+}

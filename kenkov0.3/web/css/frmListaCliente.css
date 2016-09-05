@@ -1,0 +1,68 @@
+#loader{
+    display: none;
+}
+#loader2{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:white;
+}
+
+/* ocultar la barra de busqueda de DataTables*/
+#tablita_filter{
+    display: none;
+}
+
+/* ocultar la barra de busqueda de DataTables*/
+
+
+img{
+    /*width:400px;*/
+    position:absolute;
+    top:15%;
+    left:50%;
+    /*margin-left:-200px;*/
+    border:3px #FFF solid;
+    background: #09C;
+}
+/*Estilo Ventana Modal*/
+.modal{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:rgba(0,0,0,.7);
+    display:none;
+}
+
+.ventana{
+    padding: 10px 20px;
+    width:60%;
+    position:absolute;
+    top:15%;
+    left:20%;
+/*  margin: 0 auto;
+    margin-top: 100px;*/
+    /*margin-left:-200px;*/
+    border:3px #FFF solid;
+    background: #09C;
+}
+
+.cerrar{
+    color:#fff;
+    background-color:#000;
+    padding:.2em .5em .3em .5em;
+    font-family:Arial;
+    font-weight:bold;
+    border:2px solid #fff;
+    border-radius:50%;
+    position:absolute;
+    top:-15px;
+    right:-20px;
+    cursor:pointer;
+}
+
+/*Estilo Ventana Modal*/
